@@ -1,1 +1,46 @@
-<p>candidate-details works!</p>
+<div class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="#">REGISTER</a>
+    </div>
+</div>
+<div class="container">
+    <div class="py-5 text-center">
+        <h2>WELCOME</h2>
+        <p class="lead">Please register to continue.</p>
+    </div>
+    <div class="row border border-5 border-primary rounded p-5 mx-4 bg-light">
+        <form>
+            <div class="row row-space">
+                <div class="col-md-6 mb-3">
+                    <label for="firstName">First name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                    <div class="invalid-feedback">
+                      Valid first name is required.
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="firstName">Last name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                    <div class="invalid-feedback">
+                      Valid last name is required.
+                    </div>
+                  </div>
+            </div>
+            <div class="mb-3">
+                <label for="email">Email <span class="text-muted">(Optional)</span></label>
+                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                <div class="invalid-feedback">
+                  Please enter a valid email address for shipping updates.
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="phnumber">Phone Number</label>
+                <input type="number" class="form-control" id="phnumber" placeholder="you@example.com">
+                <input type="number" class="form-control" id="phnumber" placeholder="you@example.com">
+                <div class="invalid-feedback">
+                  Please enter a valid email address for shipping updates.
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
