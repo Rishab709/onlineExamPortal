@@ -6,7 +6,10 @@ import { ExamDashboardComponent } from './exam-dashboard/exam-dashboard.componen
 import { ExamSummaryComponent } from './exam-summary/exam-summary.component';
 
 const routes: Routes = [
-  {path:"",component:CandidateDetailsComponent}
+  {path:"",component:CandidateDetailsComponent},
+  {path:"Rules",component:ExamRulesComponent},
+  {path:"Exam",component:ExamDashboardComponent},
+  {path:"Summary",component:ExamSummaryComponent},
 ];
 
 @NgModule({

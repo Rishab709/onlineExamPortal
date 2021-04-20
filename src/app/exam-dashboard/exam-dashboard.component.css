@@ -1,0 +1,35 @@
+.header{
+    background-color: #007bff;
+    height: 50px;
+    text-align: center;
+}
+
+.main-container{
+    min-height: 500px;
+}
+.qa-container{
+    background-color: whitesmoke;
+}
+.side-container{
+    background-color: white;
+}
+.inner-header{
+    margin: 3%;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+}
+.inner-header p{
+    margin: 0;
+    padding: 0;
+}
+.inner-cont{
+    margin: 3%;
+    padding: 10px;
+    background: white;
+    font-size: 15px;
+}
+.inner-cont p{
+    margin: 0;
+    padding: 0;
+}
