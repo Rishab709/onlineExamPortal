@@ -33,3 +33,33 @@
     margin: 0;
     padding: 0;
 }
+
+.qnumber {
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.violet{
+    background-color: violet;
+}
+
+.qadiv{
+    height: 90%;
+}
+.savebtn{
+    float: right;
+}
+.btn-primary{
+    display: inline;
+}
